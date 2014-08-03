@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title></title>
+<script type="text/javascript" src="/bsprite.js"></script>
+<script type="text/javascript">
+BSprite.getImages('/images', function(images){
+  images.forEach(function(img){
+    document.body.appendChild(img);
+  });
+});
+</script>
+</head>
+<body>
+<h1>Example</h1> 
+</body>
+</html>
